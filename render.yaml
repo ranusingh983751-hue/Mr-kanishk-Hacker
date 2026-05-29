@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: crazyxyz-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: MONGO_URI
+        value: mongodb+srv://ranusingh983751_db_user:vanshika143kanishk@cluster0.ysiijmj.mongodb.net/crazyxyz?appName=Cluster0
+      - key: CLOUD_NAME
+        value: dyvzsg1xu
+      - key: API_KEY
+        value: 181281869156196
+      - key: API_SECRET
+        value: Hp6c5v1xNkrmX-ARQvIuuckBZOU
