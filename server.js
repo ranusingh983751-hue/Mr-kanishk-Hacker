@@ -20,7 +20,7 @@ const CONFIG = {
   MONGO_URI:  process.env.MONGO_URI  || 'mongodb+srv://ranusingh983751_db_user:vanshika143kanishk@cluster0.ysiijmj.mongodb.net/crazyxyz?appName=Cluster0',
   CLOUD_NAME: process.env.CLOUD_NAME || 'dyvzsg1xu',
   API_KEY:    process.env.API_KEY    || '181281869156196',
-  API_SECRET: process.env.API_SECRET || 'Hp6c5v1xNkrmV-ARQvIuuckBZOU',
+  API_SECRET: process.env.API_SECRET || 'Hp6c5v1xNkrmX-ARQvIuuckBZOU',
   ADMIN_PHONES: ['8279474363', '8057123041', '9837514185']
 };
 
